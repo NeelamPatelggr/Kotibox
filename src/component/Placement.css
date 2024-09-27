@@ -1,0 +1,146 @@
+ .card {
+  width: 250px;
+  height: 250px;
+  perspective: 1000px;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  background:url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  color: #fff;
+  align-items: center;
+  border: 1px;
+  border-radius: 10px;
+  font-size: 24px;
+  transform: rotateY(0deg);
+  object-fit: cover;
+}
+
+.card-back {
+  background: linear-gradient(45deg, #4b9dcc, #223e66);
+  color: #fff;
+ 
+  align-items: center;
+  border: 1px;
+  border-radius: 10px;
+ 
+  transform: rotateY(180deg);
+}
+
+#flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+/* General Footer Styles */
+.footer {
+  background-color: black;
+  padding: 30px 0;
+}
+
+.footer h4 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.footer-link:hover {
+  color: red;
+}
+
+.social-icon {
+  width: 35px;
+  margin: 10px;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 40px;
+}
+
+.footer-bottom p {
+  margin-bottom: 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .container .row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .col-md-3 {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .social-icon {
+    margin: 5px;
+  }
+
+  .footer p,
+  .footer h4,
+  .footer-link {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-bottom {
+    gap: 10px;
+  }
+
+  .social-icon {
+    width: 30px;
+  }
+
+  .footer h4 {
+    font-size: 1rem;
+  }
+
+  .footer-link {
+    font-size: 0.9rem;
+  }
+}
+
+
+

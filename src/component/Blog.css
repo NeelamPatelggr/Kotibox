@@ -1,0 +1,9 @@
+  /* Responsive media query */
+  @media (max-width: 768px) {
+    .card-container .card-content {
+      flex-direction: row-reverse; /* Reverses the order to place image on the right */
+    }
+    .card-container .image-container {
+      order: 2; /* Ensures image stays on the right side */
+    }
+  }

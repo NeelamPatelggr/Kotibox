@@ -1,0 +1,359 @@
+.carousel-inner{
+   height: 500px;
+   object-fit: cover;
+}
+
+
+
+.navbar{
+    background-color: black;
+    
+}
+.card-body1{
+    width: 120px;
+    height: 95px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.card1,.card4,.card5
+{
+    width: 320px;
+    box-shadow: 0 0 6px;
+    border-radius: 20px;
+    display: block;
+}
+.card1:hover, .card5:hover
+{
+    transform: scale(1.1);
+    z-index: 2;
+    background: linear-gradient(45deg,rgb(19, 58, 102), rgb(64, 153, 230));
+    color: white;
+}
+
+.card4:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    background:linear-gradient(45deg,rgb(243, 226, 39), rgb(204, 133, 40));
+    color: white;
+
+}
+
+
+
+
+.cardT{
+    width: 120px;
+    height: 140px;
+    box-shadow: 0 0 5px;
+    border: black;
+    border-radius: 4PX;
+  
+}
+
+
+.custom-card-width1{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+  }
+  
+  .custom-card-width1:hover {
+    transform: scale(1.2); /* Slightly increase size */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+  }
+  
+  .card-body3 img {
+    max-width: 100%; /* Ensure images are responsive */
+    transition: transform 0.3s ease;
+ 
+  }
+  
+  .card-body3 img:hover {
+    transform: scale(1.2); /* Zoom in on image hover */
+  }
+  
+  .card-body3 p {
+    text-align: center; /* Center-align the text */
+  }
+  #button2{
+    background-color: white;
+    border: none;
+    color: rgb(71, 137, 223);
+  }
+
+  #button{
+    background-color: white;
+    border: none;
+    color: rgb(71, 137, 223);
+  }
+
+  #blue{
+    background: linear-gradient(60deg,rgb(144, 187, 237), rgb(38, 99, 153));
+    height: 160px;
+    width: 100%;
+  }
+  #button,#button2:hover{
+    background-color: rgb(232, 132, 95);
+    color: white;
+
+  }
+
+
+  .custom-card-width {
+    width: 250px; /* Set a fixed width for the card */
+    display: flex;
+    flex-direction: column; /* Align content in a column */
+  }
+  
+  .cardA {
+    border: none; /* Remove the border */
+    border-radius: 10px; /* Smooth rounded corners */
+    padding: 15px; /* Padding inside the card */
+    background-color: #fff; /* White background */
+    overflow: hidden; /* Prevent content overflow */
+    height: 230px; /* Fixed height for the card */
+  }
+  
+  .card-body2 {
+    text-align: center; /* Center the content */
+    padding: 15px; /* Adjust padding for better spacing */
+    border: none; /* Remove any border for the card body */
+  }
+  
+  .card-body2 img {
+    max-width: 70px; /* Limit image size */
+    margin-top: 10px; /* Space between the top of the card and image */
+  }
+  
+  .card-title {
+    font-size: 1.1rem; /* Slightly larger font size for the title */
+    font-weight: 600; /* Bold title */
+    margin-bottom: 10px; /* Space between title and text */
+  }
+  
+  .card-text {
+    color: #666; /* Subtle text color */
+    font-size: 0.95rem; /* Slightly smaller text */
+    margin-bottom: 0; /* No margin at the bottom */
+  }
+  .cardA:hover{
+    box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+  }
+
+
+  #heading, #heading2{
+    color: rgb(13, 75, 133);
+  }
+  #url {
+    height: 350px;
+    background: url(https://images.pexels.com/photos/53470/rain-wet-water-window-53470.jpeg?auto=compress&cs=tinysrgb&w=800) no-repeat center center;
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+  
+  
+/* Container to hold the cards */
+.card-container {
+  display: flex; /* Align cards in a row */
+  justify-content: center; /* Center cards horizontally */
+  align-items: center; /* Center cards vertically (if the container has height) */
+  gap: 20px; /* Space between the cards */
+  flex-wrap: wrap; /* Wrap to next line on smaller screens */
+  /*padding: 10px; /* Padding around the container */
+  /*height: 100vh; /* Makes the container take the full viewport height for vertical centering */
+}
+
+/* Individual card styling */
+.cardC {
+  width: 200px; /* Fixed width for square card */
+  height: 200px; /* Fixed height for square card */
+  background-color: white; /* Card background color */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  display: flex; /* Flexbox layout for centering text */
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+  color: rgb(145, 143, 143); /* Text color */
+  font-size: 1rem; /* Font size for card text */
+  text-align: center; /* Center text inside the card */
+  transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
+
+/* Hover effect for cards */
+.cardC:hover {
+  background: linear-gradient(45deg, rgb(243, 226, 39), rgb(204, 133, 40)); /* Gradient background on hover */
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+  color: white; /* Change text color on hover */
+}
+
+  h2{
+    color: rgb(13, 75, 133);
+  }
+
+  #big{
+    font-size: x-large;
+  }
+  #fill{
+    height: 300px;
+    color: white;
+    background: url(https://images.pexels.com/photos/926390/pexels-photo-926390.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+
+  #image img{
+    width: 80px;
+    height: 45px;
+  }
+
+
+
+  #form{
+    width: 900px;
+
+
+  }
+  #bg{
+    height: 130rem ;
+    background: url(https://images.pexels.com/photos/866351/pexels-photo-866351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: white;
+  }
+  #text{
+    width: 65rem;
+  }
+
+
+
+
+  .cardD {
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .card-titleD {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card-textD {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .containerD {
+    width: 100%;
+    padding: 20px;
+  }
+
+/* General Footer Styles */
+.footer {
+  background-color: black;
+  padding: 30px 0;
+}
+
+.footer h4 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.footer-link:hover {
+  color: red;
+}
+
+.social-icon {
+  width: 35px;
+  margin: 10px;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.footer-bottom p {
+  margin-bottom: 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .container .row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .col-md-3 {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .social-icon {
+    margin: 5px;
+  }
+
+  .footer p,
+  .footer h4,
+  .footer-link {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-bottom {
+    gap: 10px;
+  }
+
+  .social-icon {
+    width: 30px;
+  }
+
+  .footer h4 {
+    font-size: 1rem;
+  }
+
+  .footer-link {
+    font-size: 0.9rem;
+  }
+}
+  
+  
+  
+
+  
+  
+
+
+    
+   
+
